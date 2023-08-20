@@ -1,0 +1,40 @@
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  // padding: 50px 0;
+  overflow: hidden;
+
+  .child-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    min-width: 50vw;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+
+    .ant-row {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-start;
+      height: 80px;
+    }
+
+    .ant-form-item {
+      margin-bottom: 0px;
+    }
+  }
+  .form-container {
+    margin-left: 25%;
+    justify-content: flex-start;
+    width: 70%;
+    height: 100%;
+    overflow-y: scroll;
+  }
+}
